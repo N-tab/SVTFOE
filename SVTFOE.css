@@ -1,0 +1,466 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*div {
+box-sizing: flex;	
+}*/
+.beta{
+	width: auto;
+	height: 5%;
+	background-color: yellow;
+	margin: 0 -12px 0 -8px;
+	/*padding: 0 0 3% 0;*/
+	position: top;
+	/*box-sizing: flex;*/
+}
+.beta-text{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin: -10px 0px -10px 0;
+	font-family: 'Kelly Slab', cursive;
+}
+.body {
+	width: auto;
+	height: 100%;
+	box-sizing: block;
+}
+.head-title{
+background-color: black;
+padding: 0 0 0 6px; 
+text-align: left;
+width: auto;
+height: 100%;
+margin: 10px -12px 0px -8px;
+}
+.title-main{
+font-family: 'Pattaya', sans-serif;
+color: #fff;
+font-size: 25px;
+padding: 0 0 0 10px;
+text-decoration-line: none;
+
+}
+.btn-one{
+	font-family: 'Pattaya', sans-serif;
+	padding: 0px;
+	font-size: 20px;
+	color: #fff;
+	text-decoration-line: none;
+	margin: 0 0 0 40%;
+}
+p {
+	margin: 0px;
+}
+.btn-two{
+	font-family: 'Pattaya', sans-serif;
+	padding: 0px;
+	font-size: 20px;
+	color: #fff;
+	text-decoration-line: none;
+	margin: 0 0 0 2%;
+}
+
+.main{
+background-color: #fff;
+width: auto;
+max-height: 3000px;
+min-height: 1000px;
+height: auto;
+margin: -27px -12px -25px -8px; 
+background-size: cover;
+background-position: center center;   
+background-attachment: fixed;
+}
+h1{
+	font-family: 'Pattaya', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: black;
+}
+.main-text{
+font-family: 'Marck Script', cursive;
+font-size: 25px;
+text-align: center;
+	color: black;
+	justify-content: center;
+}
+/*.people{
+background-color: white;
+width: 25%;
+hight: 30%;
+text-align: center;
+font-size: 5%;
+box-sizing: border-box;
+}*/
+
+/*.people {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+
+.card {
+transition: 1.5s;
+text-align: center;
+background-color: #fff;
+width: 260px;
+height: 270px;
+margin: 0 5px 10px 5px ;
+border-radius: 5px 5px 5px 5px;
+box-shadow: 0 10px 10px 10px rgba(0,0,0,0.2);
+font-family: 'Pattaya', sans-serif;
+}
+/*.container {
+visibility: hidden;
+position: absolute;
+width: 260px;
+height: auto;
+text-align: center;
+margin: 0 10px 0 0 ;
+padding: 10px;
+border-radius: 5px 5px 5px 5px;
+}
+.container:hover {
+visibility: visible;
+position: absolute;
+width: 260px;
+height: auto;
+text-align: center;
+margin: 0 10px 0 0 ;
+padding: 10px;
+border-radius: 5px 5px 5px 5px;
+}*/
+.card-img{
+	color: #ffffff00;
+background-image: url(2.jpg);
+background-size: cover;
+background-position: center center;   
+background-attachment: fixed;
+width: 260px;
+height: 270px;
+margin: -21px -10px 0px 0px;
+border-radius: 5px 5px 5px 5px;
+}
+.card-img-1{
+	color: #ffffff00;
+background-image: url(https://pa1.narvii.com/7550/147f6f2f06580e828b1cb971fe0a3a700f4acb0dr1-320-320_128.gif);
+background-size: cover;
+background-position: center center;   
+
+width: 260px;
+height: 270px;
+margin: -21px -10px 0px 0px;
+border-radius: 5px 5px 5px 5px;
+}
+/*.info{
+	color: white;
+}
+.info:hover{
+	color: black;
+}*/
+.users{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 10px 20px 10px 20px;
+}
+.card-img:hover{
+	background-size: contain;
+background-position: center center;   
+background-attachment: fixed;
+	color: black;
+	background-image: url(2.jpg);
+transition: 0.5s;
+visibility: visible;
+filter: blur(10px);
+filter: opacity(55%);
+width: 260px;
+height: 270px;
+text-align: center;
+margin: -21px -10px 0px 0px;
+padding: 0px;
+border-radius: 5px 5px 5px 5px;
+}
+
+/*.card-img-1:hover{
+	background-size: cover;
+background-position: center center;   
+
+	color: white;
+	background-image: url(https://pa1.narvii.com/7550/147f6f2f06580e828b1cb971fe0a3a700f4acb0dr1-320-320_128.gif);
+transition: 0.5s;
+visibility: visible;
+filter: blur(10px);
+filter: opacity(55%);
+width: 260px;
+height: 270px;
+text-align: center;
+margin: -21px -10px 0px 0px;
+padding: 0px;
+border-radius: 5px 5px 5px 5px;
+}
+*/
+.card-img-2{
+	color: #ffffff00;
+background-image: url(https://pa1.narvii.com/7562/461b4b608296a186c769f0ee848eddf0128fac6br1-540-304_128.gif);
+background-size: cover;
+background-position: center center;   
+text-align: center center;
+width: 260px;
+height: 270px;
+margin: -21px -10px 0px 0px;
+border-radius: 5px 5px 5px 5px;
+}
+.card-img-2:hover{
+	background-size: cover;
+background-position: center center;   
+
+	color: black;
+	background-image: url(258d3beb28c6d194d865a455729840c9.jpeg);
+transition: 1s;
+/*visibility: visible;
+filter: blur(10px);
+filter: opacity(55%);*/
+
+width: 260px;
+height: 270px;
+text-align: center center;
+margin: -21px -10px 0px 0px;
+padding: 0px;
+border-radius: 5px 5px 5px 5px;
+}
+.card-img-1:hover{
+	background-size: cover;
+background-position: center center;   
+
+	color: black;
+	background-image: url(258d3beb28c6d194d865a455729840c9.jpeg);
+transition: 1s;
+/*visibility: visible;
+filter: blur(10px);
+filter: opacity(55%);*/
+
+width: 260px;
+height: 270px;
+text-align: center center;
+margin: -21px -10px 0px 0px;
+padding: 0px;
+border-radius: 5px 5px 5px 5px;
+}
+.card:hover{
+	transform: rotateY(360deg);
+	transition: 1.5s;
+text-align: center;
+background-color: #fff;
+width: 260px;
+height: 270px;
+margin: 0 5px 10px 5px ;
+border-radius: 5px 5px 5px 5px;
+box-shadow: 0 10px 10px 10px rgba(0,0,0,0.2);
+font-family: 'Pattaya', sans-serif;
+}
+
+.card-img-3{
+	color: #ffffff00;
+background-image: url(https://pm1.narvii.com/7571/ba6304f2e5c1be2723d1ccaf674ecd18f55b1520r1-736-736v2_128.jpg);
+background-size: cover;
+background-position: center center;   
+text-align: center center;
+width: 260px;
+height: 270px;
+margin: -21px -10px 0px 0px;
+border-radius: 5px 5px 5px 5px;
+}
+.card-img-3:hover{
+	background-size: cover;
+background-position: center center;   
+
+	color: black;
+	background-image: url(258d3beb28c6d194d865a455729840c9.jpeg);
+transition: 1s;
+/*visibility: visible;
+filter: blur(10px);
+filter: opacity(55%);*/
+
+width: 260px;
+height: 270px;
+text-align: center center;
+margin: -21px -10px 0px 0px;
+padding: 0px;
+border-radius: 5px 5px 5px 5px;
+}
+
+.card-img-4{
+	color: #ffffff00;
+background-image: url(https:////pm1.narvii.com/7571/4d3af94c3ee9ba5387d6dd3439924b12838407b0r1-1296-1268v2_128.jpg);
+background-size: cover;
+background-position: center center;   
+text-align: center center;
+width: 260px;
+height: 270px;
+margin: -21px -10px 0px 0px;
+border-radius: 5px 5px 5px 5px;
+}
+.card-img-4:hover{
+	background-size: cover;
+background-position: center center;   
+
+	color: black;
+	background-image: url(258d3beb28c6d194d865a455729840c9.jpeg);
+transition: 1s;
+/*visibility: visible;
+filter: blur(10px);
+filter: opacity(55%);*/
+
+width: 260px;
+height: 270px;
+text-align: center center;
+margin: -21px -10px 0px 0px;
+padding: 0px;
+border-radius: 5px 5px 5px 5px;
+}
+
+.card-img-5{
+	color: #ffffff00;
+background-image: url(https:////pm1.narvii.com/7570/210db1240dabff9d4bc30ef4a5b4164e2bd40e90r1-790-802v2_128.jpg);
+background-size: cover;
+background-position: center center;   
+text-align: center center;
+width: 260px;
+height: 270px;
+margin: -21px -10px 0px 0px;
+border-radius: 5px 5px 5px 5px;
+}
+.card-img-5:hover{
+	background-size: cover;
+background-position: center center;   
+
+	color: black;
+	background-image: url(258d3beb28c6d194d865a455729840c9.jpeg);
+transition: 1s;
+/*visibility: visible;
+filter: blur(10px);
+filter: opacity(55%);*/
+
+width: 260px;
+height: 270px;
+text-align: center center;
+margin: -21px -10px 0px 0px;
+padding: 0px;
+border-radius: 5px 5px 5px 5px;
+}
+.card-img-6{
+	color: #ffffff00;
+background-image: url(https://pm1.narvii.com/7542/a29d5df2ec58cefc7c5c282fd12dc4ca56d0d802r1-1024-998v2_128.jpg);
+background-size: cover;
+background-position: center center;   
+text-align: center center;
+width: 260px;
+height: 270px;
+margin: -21px -10px 0px 0px;
+border-radius: 5px 5px 5px 5px;
+}
+.card-img-6:hover{
+	background-size: cover;
+background-position: center center;   
+
+	color: black;
+	background-image: url(258d3beb28c6d194d865a455729840c9.jpeg);
+transition: 1s;
+/*visibility: visible;
+filter: blur(10px);
+filter: opacity(55%);*/
+
+width: 260px;
+height: 270px;
+text-align: center center;
+margin: -21px -10px 0px 0px;
+padding: 0px;
+border-radius: 5px 5px 5px 5px;
+}
+.card-img-7{
+	color: #ffffff00;
+background-image: url(https://pm1.narvii.com/7544/fe0b7fc359e02cabb4c4d948b86e76e20042fe64r1-500-493v2_128.jpg);
+background-size: cover;
+background-position: center center;   
+text-align: center center;
+width: 260px;
+height: 270px;
+margin: -21px -10px 0px 0px;
+border-radius: 5px 5px 5px 5px;
+}
+.card-img-7:hover{
+	background-size: cover;
+background-position: center center;   
+
+	color: black;
+	background-image: url(258d3beb28c6d194d865a455729840c9.jpeg);
+transition: 1s;
+/*visibility: visible;
+filter: blur(10px);
+filter: opacity(55%);*/
+
+width: 260px;
+height: 270px;
+text-align: center center;
+margin: -21px -10px 0px 0px;
+padding: 0px;
+border-radius: 5px 5px 5px 5px;
+}
+
+.card-img-8{
+	color: #ffffff00;
+background-image: url(https://pm1.narvii.com/7570/d83fc4530f3c66b926d6a35537f55d952e1ae289r1-736-736v2_128.jpg);
+background-size: cover;
+background-position: center center;   
+text-align: center center;
+width: 260px;
+height: 270px;
+margin: -21px -10px 0px 0px;
+border-radius: 5px 5px 5px 5px;
+}
+.card-img-8:hover{
+	background-size: cover;
+background-position: center center;   
+
+	color: black;
+	background-image: url(258d3beb28c6d194d865a455729840c9.jpeg);
+transition: 1s;
+/*visibility: visible;
+filter: blur(10px);
+filter: opacity(55%);*/
+
+width: 260px;
+height: 270px;
+text-align: center center;
+margin: -21px -10px 0px 0px;
+padding: 0px;
+border-radius: 5px 5px 5px 5px;
+}
+.open-card{
+	width: 75%;
+	max-width: auto;
+	height: auto;
+	position: center;
+	align-items: center;
+	text-align: center;
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+	border-radius: 20px;
+   justify-content: center;
+   padding: 15px;
+   margin: auto;
+   font-family: 'Pattaya', sans-serif;
+}
+.open-card-img{
+	height: 400px;
+	width: auto;
+	size: cover;
+	position: center;
+padding: 20px;
+}

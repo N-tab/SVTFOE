@@ -1,0 +1,51 @@
+@media only screen and (max-width: 531px) {   
+.main { background-color: white;
+background-size: cover; 
+background-position: center center;   
+background-attachment: fixed; 
+background-repeat: no-repeat;
+width: auto;
+/*max-height: auto;*/
+height: 300px;
+margin: -27px -12px -5px -8px; }
+.title-main{
+font-family: 'Pattaya', sans-serif;
+color: #fff;
+font-size: 15px;
+padding: 0 0 0 10px;
+text-decoration-line: none;}
+.btn-one{
+	font-family: 'Pattaya', sans-serif;
+	padding: 0px;
+	font-size: 10px;
+	color: #fff;
+	text-decoration-line: none;
+	margin: 0 0 0 2%;}
+	.btn-two{
+	font-family: 'Pattaya', sans-serif;
+	padding: 0px;
+	font-size: 10px;
+	color: #fff;
+	text-decoration-line: none;
+	margin: 0 0 0 1%;
+}
+h1{
+	font-family: 'Pattaya', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: black;
+}
+.main-text{
+font-family: 'Marck Script', cursive;
+font-size: 25px;
+text-align: center;
+	color: black;
+}
+.open-card-img{
+	height: 170px;
+	width: auto;
+	size: cover;
+	position: center;
+padding: 20px;
+}
+}
