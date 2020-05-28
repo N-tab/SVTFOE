@@ -31,10 +31,12 @@ margin: -27px -12px -5px -8px; }
 .html-chat-js-answer{ float:right;}
 .html-chat-js-answer a{ color: black;
 	font-size: 12px;
-	font-family: cursive;}
+	font-family: cursive;
+	visibility:hide;}
 .html-chat-js-answer a:hover{ color: black;
 	font-size: 12px;
-	font-family: cursive;}
+	font-family: cursive;
+	visibility:hide;}
 .html-chat-msg{ 
 	margin: 0px;
 	}
