@@ -110,7 +110,7 @@ text-align: center;
 background-color: #fff;
 width: 260px;
 height: 270px;
-margin: 0 5px 10px 5px ;
+margin: auto;
 border-radius: 5px 5px 5px 5px;
 box-shadow: 0 10px 10px 10px rgba(0,0,0,0.2);
 font-family: 'Pattaya', sans-serif;
@@ -227,11 +227,11 @@ transition: 1s;
 /*visibility: visible;
 filter: blur(10px);
 filter: opacity(55%);*/
-
+margin: -21px -10px 0px 0px;
 width: 260px;
 height: 270px;
 text-align: center center;
-margin: -21px -10px 0px 0px;
+
 padding: 0px;
 border-radius: 5px 5px 5px 5px;
 }
@@ -260,7 +260,7 @@ text-align: center;
 background-color: #fff;
 width: 260px;
 height: 270px;
-margin: 0 5px 10px 5px ;
+margin: auto;
 border-radius: 5px 5px 5px 5px;
 box-shadow: 0 10px 10px 10px rgba(0,0,0,0.2);
 font-family: 'Pattaya', sans-serif;
