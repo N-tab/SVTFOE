@@ -13,7 +13,8 @@ margin: -27px -12px -5px -8px; }
 		background-color: #fff;
 		color: black;
 		position: center;
-		width: 300px;}
+		width: 300px;
+	height:auto;}
 .html-chat-history{ max-width: 200px;
 	overflow: auto;
 	max-height: 900px;
