@@ -11,7 +11,8 @@ margin: -27px -12px -5px -8px; }
 	.holder-html-chat{ border: 1px solid #ccc;
 		padding:10px;
 		background-color: #fff;
-		color: black; position: center;
+		color: black;
+		position: center;
 		width: 300px;}
 .html-chat-history{ max-width: 200px;
 	overflow: auto;
