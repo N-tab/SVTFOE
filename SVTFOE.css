@@ -64,7 +64,7 @@ p {
 }
 
 .main{
-background-color: #fff;
+background-color: black;
 width: auto;
 max-height: 3000px;
 min-height: 1000px;
@@ -78,7 +78,7 @@ h1{
 	font-family: 'Pattaya', sans-serif;
 	font-size: 40px;
 	text-align: center;
-	color: black;
+	color: #fff;
 }
 .main-text{
 font-family: 'Marck Script', cursive;
