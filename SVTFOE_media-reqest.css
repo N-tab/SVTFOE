@@ -13,40 +13,31 @@ margin: -27px -12px -5px -8px; }
 		background-color: #fff;
 		color: black;
 		position: center;
-		width: 300px;
-	height:auto;}
+		width: 300px;}
 .html-chat-history{ max-width: 200px;
 	overflow: auto;
 	max-height: 900px;
 	border: 1px solid #ccc;
 	padding: 5px;
 	width: 200px;}
-.html-chat-js-name{ 
-	margin-top:10px;
-	}
-.html-chat-js-input{ 
-	max-width: 600px;
+.html-chat-js-name{ margin-top:10px; }
+.html-chat-js-input{ max-width: 600px;
 	max-height: 100px;
 	width: 200px;
-	margin-top:10px;
-	float: left;}
+	margin-top:10px;}
 .html-chat-js-button-holder{ margin-bottom: 0px;
-	margin-top: 10px;
-	float: left;}
+	margin-top: 10px;}
 .html-chat-js-button-holder input{ width: 100px; }
 .html-chat-js-answer{ float:right;}
 .html-chat-js-answer a{ color: black;
 	font-size: 12px;
-	font-family: cursive;
-	float: left;
-	}
+	font-family: cursive;}
 .html-chat-js-answer a:hover{ color: black;
 	font-size: 12px;
-	font-family: cursive;
-	float: left;
-	}
+	font-family: cursive;}
 .html-chat-msg{ 
-	margin: 0px; }
+	margin: 0px;
+	}
 .title-main{
 font-family: 'Pattaya', sans-serif;
 color: #fff;
