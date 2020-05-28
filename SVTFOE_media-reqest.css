@@ -20,12 +20,14 @@ margin: -27px -12px -5px -8px; }
 	padding: 5px;
 	width: 200px;}
 .html-chat-js-name{ 
-	margin-top:10px; }
+	margin-top:10px;
+	float: left;}
 .html-chat-js-input{ 
 	max-width: 600px;
 	max-height: 100px;
 	width: 200px;
-	margin-top:10px;}
+	margin-top:10px;
+	float: left;}
 .html-chat-js-button-holder{ margin-bottom: 0px;
 	margin-top: 10px;}
 .html-chat-js-button-holder input{ width: 100px; }
