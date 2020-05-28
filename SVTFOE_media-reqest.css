@@ -84,6 +84,10 @@ hight: 110px;
 width: 100px;
 hight: 110px;
 }
+.card:hover{
+width: 100px;
+hight: 110px;
+}
 .card-img-1:hover{
 width: 100px;
 hight: 110px;
