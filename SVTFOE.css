@@ -511,3 +511,8 @@ outline: none;
 input{
 	outline: none;
 }
+.chat{
+	position: center;
+	display: table;
+	margin: auto;
+}
