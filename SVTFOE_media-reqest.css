@@ -8,8 +8,8 @@ width: auto;
 /*max-height: auto;*/
 height: 300px;
 margin: -27px -12px -5px -8px; }
-	.holder-html-chat{ border: 1px solid #ccc
-		;padding:10px;
+	.holder-html-chat{ border: 1px solid #ccc;
+		padding:10px;
 		background-color: #fff;
 		color: black; position: center;
 		width: 300px;}
@@ -21,7 +21,7 @@ margin: -27px -12px -5px -8px; }
 	width: 200px;}
 .html-chat-js-name{ 
 	margin-top:10px;
-	float: left;}
+	}
 .html-chat-js-input{ 
 	max-width: 600px;
 	max-height: 100px;
