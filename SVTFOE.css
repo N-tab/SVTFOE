@@ -464,6 +464,7 @@ border-radius: 5px 5px 5px 5px;
    padding: 15px;
    margin: auto;
    font-family: 'Pattaya', sans-serif;
+color: white;
 }
 .open-card-img{
 	height: 400px;
@@ -485,6 +486,7 @@ padding: 20px;
    padding: 15px;
    margin: 20px auto 10px auto;
    font-family: 'Pattaya', sans-serif;
+color: white;
 }
 .close-1{
 	margin-top: 10px;
@@ -492,6 +494,7 @@ padding: 20px;
 	border-radius: 20px;
 	padding: 15px;
 	display: none;
+color: white;
 }
 .close-1:hover{
 	margin-top: 10px;
@@ -499,6 +502,7 @@ padding: 20px;
 	border-radius: 20px;
 	padding: 15px;
 	display: block;
+color: white;
 }
 .f{
 	font-family: 'Pattaya', sans-serif;
