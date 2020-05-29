@@ -29,7 +29,70 @@
 	</div>
  <div class="main">
  	<h1> Выберете серию</h1>
+<div id="content-video"> 
 
+
+
+
+<!-- /zapas video -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- vk -->
+
+<div id="4a5a794cf23c9e1d7525b35cb249c81c" class="viboom-overroll ut-overroll vid-overroll">
+<div id="movie_area" style="display: block;"><iframe src="http://multvn2.ru/video/serials/zvezdnaya_princessa/s01/star.vs.the.forces.of.evil.s01e01.star.comes.to.earth_party.with.a.pony.720p.webdl.2xrus.eng" width="588" height="331" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+</div>
+
+<script type="text/javascript">
+        function loadPlayer(movie_id){
+ShowLoading('');
+        $.post(dle_root + "video/vk-16-9.php", 
+        { movie_id: movie_id}, function(data){
+                HideLoading('');
+                $("#movie_area").fadeOut(100, function() {
+                        $(this).html(data);
+                        $(this).fadeIn(100);
+                });
+        });
+}
+</script>
+
+
+
+
+
+
+
+<!-- /vk -->
+
+
+<!-- serii -->
+
+<div class="vibor">
+<select name="video_list" onchange="if(this.value){loadPlayer(this.value);}">
+<option value="https://api1572851765.multikland.net/embed/movie/2480?season=1&amp;episode=1">Выбор серии:</option> <option class="sezon" disabled="disabled"></option> <option class="sezon" disabled="disabled">1 сезон</option> <option class="sezon" disabled="disabled"></option> <option value="http://multvn2.ru/video/serials/zvezdnaya_princessa/s01/star.vs.the.forces.of.evil.s01e01.star.comes.to.earth_party.with.a.pony.720p.webdl.2xrus.eng"> 01. Звёздочка прибывает на Землю / Вечеринка с пони </option> <option value="https://api1572851765.multikland.net/embed/movie/2480?season=1&amp;episode=2"> 02. Сваха / Школьный дух </option> <option value="https://api1572851765.multikland.net/embed/movie/2480?season=1&amp;episode=3"> 03. Рука-монстр / Другой студент по обмену </option> <option value="https://api1572851765.multikland.net/embed/movie/2480?season=1&amp;episode=4"> 04. Не унывай, Звёздочка / Приключенческий супермаркет </option> <option value="https://api1572851765.multikland.net/embed/movie/2480?season=1&amp;episode=5"> 05. Отпуск семьи Диасз / Вечеринка Бриттни </option> <option value="https://api1572851765.multikland.net/embed/movie/2480?season=1&amp;episode=6"> 06. Мьюбертатный период / Пикстопия </option> <option value="https://api1572851765.multikland.net/embed/movie/2480?season=1&amp;episode=7"> 07. Ракорука / Сонное колдовство </option> <option value="https://api1572851765.multikland.net/embed/movie/2480?season=1&amp;episode=8"> 08. Бал кровавой луны / Печенья с предсказанием </option> <option value="https://api1572851765.multikland.net/embed/movie/2480?season=1&amp;episode=9"> 09. Замороженный день / Королевская боль </option> <option value="https://api1572851765.multikland.net/embed/movie/2480?season=1&amp;episode=10"> 10. Школа Святой Ольги для непутёвых принцесс </option> <option value="https://api1572851765.multikland.net/embed/movie/2480?season=1&amp;episode=11"> 11. День Мьюнизависимости / Банановый инцидент </option> <option value="https://api1572851765.multikland.net/embed/movie/2480?season=1&amp;episode=12"> 12. Межпространственная экскурсия / Марко растит бороду </option> <option value="https://api1572851765.multikland.net/embed/movie/2480?season=1&amp;episode=13"> 13. Штурм замка </option> <option class="sezon" disabled="disabled"></option> <option class="sezon" disabled="disabled">2 сезон</option> <option class="sezon" disabled="disabled"></option> <option value="https://api1572853698.multikland.net/embed/movie/2480?season=2&amp;episode=1"> 01. Моя новая палочка / Людо в дикой природе </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=2"> 02. Заботы Мистера Кендэла / Красный пояс </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=3"> 03. Стар на колёсах / Принести </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=4"> 04. Стар и Эхо-Крик / Палочки палочки </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=5"> 05. Боготворит / Поход </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=6"> 06. Стар в няньках / На работе </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=7"> 07. Гоблин дог / По книге </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=8"> 08. Игра в флаги / День девочек </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=9"> 09. Пижамная вечеринка / Подарочная карта </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=10"> 10. Друзья или враги / Тайна </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=11"> 11. Голодный Ларри / Паук с цилиндром </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=12"> 12. В палочку / Пицца - вещь </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=13"> 13. Опасная глава / Обличитель </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=14"> 14. День рождения клоуна Бон Бона </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=15"> 15. Облава на пещеру / Трюк Стар </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=16"> 16. Малыш / Бег с ножницами </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=17"> 17. Математика волшебства / Отбойная вечеринка </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=18"> 18. Кристально чистый / Трудный путь </option> <option value="http://multvn2.ru/vod/serials/zvezdnaya_princessa/s02/star.vs.the.forces.of.evil.s02e19.heinous_all.belts.are.off.1080p.webdl.rus.eng"> 19. Хейнос / Все ремни отключены </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=20"> 20. Сопутствующий ущерб / Просто друзья </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=21"> 21. Лицо музыки </option> <option value="https://api1572853990.multikland.net/embed/movie/2480?season=2&amp;episode=22"> 22. Starcrushed </option> <option class="sezon" disabled="disabled"></option> <option class="sezon" disabled="disabled">3 сезон</option> <option class="sezon" disabled="disabled"></option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=1"> 01. Возвращение на Мьюни / Неустрашимая Мун </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=2"> 02. Книга исчезла / Марко и Король </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=3"> 03. Грязь защита / Король Людо </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=4"> 04. Тоффи </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=5"> 05. Запах толстовки / Отдых в пудинге </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=6"> 06. Клуб оскорблённых / Незнакомая опасность </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=7"> 07. Демонцизм / Второсортный обвал </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=8"> 08. Ловец снов / Испытание сквайера </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=9"> 09. Принцесса Турдина / Старфари </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=10"> 10. Сладкий сон / Пляж Лавового озера </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=11"> 11. Смертельный клевок / Понимоний </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=12"> 12. Ночная жизнь / Глубокое погружение </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=13"> 13. Монстровечеринка </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=14"> 14. День пня / Праздничный выпуск </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=15"> 15. Богиня Боггабы / Полное затмение Луны </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=16"> 16. Ловушка Баттерфляй / Людо, ты где? </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=17"> 17. Ещё одна тайна / Марко-младший </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=18"> 18. Обученный / Будка друзей </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=19"> 19. Ночная вечеринка / Непростая любовь </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=20"> 20. Разделить </option> <option value="https://api1572854606.multikland.net/embed/movie/2480?season=3&amp;episode=21"> 21. Покорение </option> <option class="sezon" disabled="disabled"></option> <option class="sezon" disabled="disabled">4 сезон</option> <option class="sezon" disabled="disabled"></option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=1"> 01 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=2"> 02 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=3"> 03 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=4"> 04 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=5"> 05 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=6"> 06 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=7"> 07 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=8"> 08 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=9"> 09 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=10"> 10 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=11"> 11 </option> <option value="http://multvn2.ru/vod/serials/zvezdnaya_princessa/s04/star.vs.the.forces.of.evil.s04e12.junkin.janna.a.spell.with.no.name.1080p.webdl.rus.eng"> 12 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=13"> 13 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=14"> 14 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=15"> 15 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=16"> 16 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=17"> 17 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=18"> 18 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=19"> 19 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=20"> 20 </option> <option value="https://api1572854987.multikland.net/embed/movie/2480?season=4&amp;episode=21"> 21 </option>
+</select>
+</div>
+
+<!-- /serii -->
+
+
+
+<!-- zapas video -->
+
+  </div>
  </div>
 
 </body>
