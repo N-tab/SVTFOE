@@ -121,6 +121,7 @@ margin-top:10px;
 max-height: 100px;
 width: 200px;
 margin-top:10px;
+width: 100px;
 }
 .html-chat-js-button-holder{ 
 margin-bottom: 0px;
@@ -136,14 +137,12 @@ float:right;
 color: black;
 font-size: 12px;
 font-family: cursive;
-visibility:hide;
 float: left;
 }
 .html-chat-js-answer a:hover{ 
 color: black;
 font-size: 12px;
 font-family: cursive;
-visibility:hide;
 float: left;
 }
 .html-chat-msg{
