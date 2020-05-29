@@ -6,7 +6,7 @@ background-attachment: fixed;
 background-repeat: no-repeat;
 width: auto;
 /*max-height: auto;*/
-height: 300px;
+height: auto;
 margin: -27px -12px -5px -8px; }
 .main-false{
 background-color: black;
@@ -31,7 +31,7 @@ margin: -27px -12px -5px -8px;
 	border: 1px solid #ccc;
 	padding: 5px;
 	width: 200px;}
-.html-chat-js-name{ margin-top:10px; }
+.html-chat-js-name{ margin-top:10px; 
 .html-chat-js-input{ max-width: 600px;
 	max-height: 100px;
 	width: 200px;
