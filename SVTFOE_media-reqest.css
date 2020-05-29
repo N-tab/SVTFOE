@@ -1,5 +1,5 @@
 @media only screen and (max-width: 531px) {   
-.main { background-image: url(SAVE_20200529_104440.jpg);
+.main { background-color: white;
 background-size: cover; 
 background-position: center center;   
 background-attachment: fixed; 
@@ -9,7 +9,7 @@ width: auto;
 height: 25px;
 margin: -27px -12px -5px -8px; }
 .main-false{
-background-color: black;
+background-color: white;
 background-size: cover; 
 background-position: center center;   
 background-attachment: fixed; 
@@ -76,13 +76,13 @@ h1{
 	font-family: 'Pattaya', sans-serif;
 	font-size: 40px;
 	text-align: center;
-	color: white;
+	color: black;
 }
 .main-text{
 font-family: 'Marck Script', cursive;
 font-size: 25px;
 text-align: center;
-	color: white;
+	color: black;
 }
 .open-card-img{
 	height: 170px;
