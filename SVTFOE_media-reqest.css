@@ -16,10 +16,10 @@ background-attachment: fixed;
 background-repeat: no-repeat;
 width: auto;
 /*max-height: auto;*/
-height: 1500px;
+height: 1000px;
 margin: -27px -12px -5px -8px; 
 }
-	/*.holder-html-chat{ border: 1px solid #ccc;
+	.holder-html-chat{ border: 1px solid #ccc;
 		padding:10px;
 		background-color: #fff;
 		color: black;
@@ -50,7 +50,7 @@ margin: -27px -12px -5px -8px;
 	visibility:hide;}
 .html-chat-msg{ 
 	margin: 0px;
-	}*/
+	}
 .title-main{
 font-family: 'Pattaya', sans-serif;
 color: #fff;
