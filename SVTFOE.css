@@ -93,6 +93,12 @@ h1{
 	text-align: center;
 	color: black;
 }
+h-f{
+font-family: 'Pattaya', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
 .main-text{
 font-family: 'Marck Script', cursive;
 font-size: 25px;
