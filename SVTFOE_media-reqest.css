@@ -84,6 +84,12 @@ font-size: 25px;
 text-align: center;
 	color: black;
 }
+.main-text-f{
+font-family: 'Marck Script', cursive;
+font-size: 25px;
+text-align: center;
+	color: white;
+}
 .open-card-img{
 	height: 170px;
 	width: auto;
